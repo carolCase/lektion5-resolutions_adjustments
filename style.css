@@ -1,8 +1,44 @@
  /*media query practice*/
 
- @media screen and (max-width: 480px) { h1 {
+ @media screen and (max-width: 1024px) { h1 {
     color: brown;
    }
- 
-    
  }
+/* flexbox practice*/
+/*flex direction 
+row
+row reverse
+column
+column reverse */
+
+flex.container > p { 
+    display: flex;
+    flex-wrap:wrap ;
+    background-color: red;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+flex.container > p {
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    font-size: 2rem;
+    padding-left: 16px;
+
+}
+/*grid practice*/
+
+
+.grid-container > p {
+    background-color: lightskyblue;
+    display: grid;
+    
+    column-gap: 50px;
+    row-gap: 50px;
+
+
+}
+
+
+
+
