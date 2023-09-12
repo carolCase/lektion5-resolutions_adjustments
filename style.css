@@ -1,0 +1,8 @@
+ /*media query practice*/
+
+ @media screen and (max-width: 480px) { h1 {
+    color: brown;
+   }
+ 
+    
+ }
