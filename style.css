@@ -1,43 +1,57 @@
  /*media query practice*/
- @media screen and (max-width: 480px) { h1 {
+ @media screen and (max-width: 600px) { h1 {
     color: brown;
    }
  }
- 
+
+ @media screen and (max-width: 600px) {
+    .No-show {
+      display: none;
+    }
+  }
+.No-show {
+    background-color: yellow;
+    padding: 20px;
+  }
 /* flexbox practice*/
 /*flex direction */
 .flex-container p {
     display: flex;
-    flex-wrap: wrap;
-    background-color: deepskyblue;
-    flex-direction: row;
-    justify-content: space-evenly;
+    background-color:black;
+    flex-direction: row;  
+    flex-wrap: wrap; 
+    justify-content: center;
+      
 }
-
 .flex-container > p {
-    background-color: black;
+
+    background-color: blue;
     color: aliceblue;
     font-size: 2rem;
     padding: 16px;
     margin: 16px;
     
+    
 } 
 /*grid practice*/
-.grid-container {
-    background-color: skyblue;
+.grid-container{
+    background-color: aqua;
     display: grid;
+    column-gap: 25px;
+    row-gap: 25px;
+    grid-template-columns: auto auto;
     
-    column-gap: 50px;
-    row-gap: 50px;
-
-    grid-template-columns: auto auto auto auto;
 }
 
 .grid-container > p {
     background-color: black;
     color: aliceblue;
     font-size: 2rem;
+
 }
+
+
+
 
 .header {
     background-color: lightseagreen;
